@@ -9,11 +9,11 @@ Just put it in top of your .gitlab-ci.yml file:
 image: ozhyrenkov/aws-py-docker:latest
 
 ```
-## Update in docker rigistry:
+## Update in docker registry:
+
+```
 docker build -t aws-py-docker . 
 docker push aws-py-docker:latest
-```
-
 ```
 ## Example of .gitlab-ci.yml:
 ```
